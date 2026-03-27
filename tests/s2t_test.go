@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/longbridge/opencc"
 	"github.com/sergi/go-diff/diffmatchpatch"
+	"github.com/wei-jiang/opencc"
 )
 
 func readFile(filename string) string {
